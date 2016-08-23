@@ -64,7 +64,7 @@ class BraviaRC:
             return False
 
         except Exception as exception_instance:  # pylint: disable=broad-except
-            _LOGGER.error("[W] Exception: " + str(exception_instance))
+            _LOGGER.debug("[W] Exception: " + str(exception_instance))
             return False
 
         else:
